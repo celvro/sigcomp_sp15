@@ -1,6 +1,3 @@
-from math import sqrt
-import sys
-
 def vampire(a,b):
     return sorted(str(a*b)) == sorted(str(a)+str(b))
     
